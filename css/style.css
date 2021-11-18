@@ -24,7 +24,7 @@ li {
 }
 
 .wrapper {
-  max-width: 120%;
+  max-width: 1200px;
   padding: 0 16px;
   margin: 0 auto;
 }
@@ -139,4 +139,96 @@ main li {
 
 main .text {
   padding: 10px 40px 30px 40px;
+}
+
+#sidebar {
+  width: 35%;
+  padding: 20px 20px;
+}
+
+#sidebar .side-title {
+  font-size: 1.125rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.author {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.author img {
+  margin-bottom: 30px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.author .profile {
+  font-size: 0.875rem;
+  text-align: left;
+}
+
+.ranking {
+  text-align: center;
+}
+
+.ranking article {
+  margin-bottom: 30px;
+}
+
+.ranking .article-title {
+  font-size: 0.875rem;
+  font-weight: normal;
+  text-align: left;
+}
+
+.archive {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.archive ul {
+  border-bottom: solid 1px #777;
+}
+
+.archive li {
+  font-size: 0.875rem;
+  text-align: left;
+  padding: 20px 20px;
+  border-top: solid 1px #777;
+}
+
+#footer {
+  font-size: 0.875rem;
+  background-color: #f7f7f7;
+}
+
+#footer .content {
+  padding: 50px 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .item {
+  width: 30%;
+}
+
+#footer .footer-title {
+  font-size: 1.125rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+#footer .about-list {
+  margin: 20px 0;
+}
+
+#footer .about-list li {
+  margin-bottom: 5px;
+}
+
+#footer .about-list .arrow {
+  padding-right: 12px;
 }
