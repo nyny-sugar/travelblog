@@ -56,3 +56,37 @@ li {
   transform: translateY(3px);
 }
 
+#header {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 10;
+}
+
+#header .site-title {
+  padding: 20px 16px;
+  line-height: 1px;
+}
+
+#header .site-title a {
+  display: inline-block;
+}
+
+#navi {
+  background-color: #333;
+}
+
+#navi ul {
+  display: flex;
+}
+
+#navi li {
+  font-size: 0.875rem;
+  padding: 10px 60px 10px 0;
+}
+
+#navi a {
+  color: #fff;
+  align-items: center;
+  justify-content: flex-start;
+}
