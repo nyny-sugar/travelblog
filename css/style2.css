@@ -199,3 +199,70 @@ main .text {
   text-align: left;
   font-size: 0.875rem;
 }
+
+#footer {
+  font-size: 0.875rem;
+  background-color: #f7f7f7;
+}
+
+#footer .content {
+  display: flex;
+  padding: 50px 16px 50px 16px;
+  margin: 0 377px;
+  justify-content: space-between;
+}
+
+#footer .item {
+  width: 30%;
+}
+
+#footer .footer-title {
+  margin-bottom: 30px;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+#footer .about-list {
+  margin: 20px 0;
+}
+
+.about-list li {
+  margin-bottom: 5px;
+}
+
+.about-list .arrow {
+  padding-left: 12px;
+  position: relative;
+  color: #333;
+  display: inline-block;
+}
+
+.about-list .arrow::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: solid 6px transparent;
+  border-right: solid 6px transparent;
+  border-bottom: solid 6px transparent;
+  border-left: solid 8px #333;
+  left: 0;
+  top: 50%;
+  margin-top: -8px;
+}
+
+#footer .menu-list {
+  border-bottom: solid 1px #777;
+}
+
+.menu-list li {
+  padding: 15px 15px;
+  border-top: solid 1px #777;
+  text-align: left;
+}
+
+#footer .copyright {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 0.750rem;
+}
